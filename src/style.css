@@ -34,10 +34,11 @@ body {
 .bot {
   height: 33%;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: 5px;
   font-size: 60px;
+  transform: rotate(180deg);
 }
 
 .heart::before {
