@@ -1,1 +1,59 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.card {
+  margin: auto;
+  margin-top: 150px;
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.top {
+  height: 33%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px;
+  font-size: 60px;
+}
+
+.mid {
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 70px;
+}
+
+.bot {
+  height: 33%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 5px;
+  font-size: 60px;
+}
+
+.heart::before {
+  content: "♥";
+  color: red;
+}
+
+.spade::before {
+  content: "♠";
+}
+
+.club::before {
+  content: "♣";
+}
+
+.diamond::before {
+  content: "♦";
+  color: red;
+}
